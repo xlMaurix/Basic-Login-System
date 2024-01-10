@@ -14,6 +14,9 @@ function Display(){
 
     document.getElementById('ERROR').innerHTML = 'User: ' + User + ' ' + 'Password: ' + Pass;
     setTimeout(Disapear, 1000);
+
+    saveData(User);
+    saveData(Pass);
 }
 
 function Disapear(){
