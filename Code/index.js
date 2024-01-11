@@ -1,4 +1,4 @@
-const saveData = requiere('./databasesaver.js');
+const saveData = require('./databasesaver.js');
 
 function Display(){
     if (!document.getElementById('Username').value) {
